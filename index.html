@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+	<title>Survey Form</title>
+</head>
+<body>
+		<h1 id="title">
+			Survey Form!
+		</h1>
+		<p id="description">
+			Hey !
+			Participate and helps us to improve our 
+			services for you.	
+		</p>
+		<div id="main">
+		<form action="" id="survey-form">
+			<div>
+				Name
+				<span id="red">*</span> 
+				<br>
+				<input type="name" name="name" id="name-label" size="30" required placeholder="Your Name"> 
+			</div>
+			<br>
+			<div>
+				Email
+				<span id="red">*</span> 
+				<br>
+				<input type="email" name="email" size="30" id="email-label" required placeholder="Your Email Id">
+			</div>
+			 <br>
+			 <div>
+				Age
+				<span id="red">*</span> 
+				<br>
+				<input type="number" name="number" size="30" id="number-label" min="10" max="90" required placeholder="Age">
+			</div>
+			<br>
+			<div>
+				What describes you best?
+				<span id="red">*</span> 
+				<br>
+				<select type="" name=""required placeholder="select" id="dropdown" class="select-form"> 
+
+					<option disabled selected value="select">
+						select
+					</option> 
+					<option value="student">
+						student
+					</option>
+					<option value="Salaried">
+						salaried
+					</option>
+					<option value="self">
+						self employed
+					</option>
+				</select>
+		    </div>
+		    <br>
+		    <div>
+		    	Your Hobby!
+		    	<span style="color: green;">
+		    	(optional)
+		        </span><br>
+		        Cricket
+		    	<input type="radio" name="recommended" value="cricket"><br>
+		    	football
+                <input type="radio" name="option" value="football"><br>
+                Musicals
+                <input type="radio" name="option" value="musicals"><br>
+		    </div>
+		    <br>
+		    <div>
+		    	What do you like the most about us?
+		    	<span id="red">
+		    	*
+		        </span><br>
+		        Designs
+		    	<input type="checkbox" name="recommended" value="Designs"><br>
+		    	Nice UI
+                <input type="checkbox" name="recommended" value="UI"><br>
+                Nice place to Work
+                <input type="checkbox" name="recommended" value="place"><br>
+		    </div>
+		    <br>
+		    <div>
+		    	<label for="comments">
+		    		Description
+		    		<br>
+		    	</label>
+		    	<textarea rows="5" cols="30">
+		    	</textarea>
+		    </div>
+		    <br>
+		    <input type="checkbox">I herby agree that all the statements are correct and true<span style="color: red;">*</span>
+		    <div>
+		    	<button id="submit">
+		    		Submit
+		    	</button>
+		    </div>
+		</form>
+	</div>	
+</body>
+</html>
